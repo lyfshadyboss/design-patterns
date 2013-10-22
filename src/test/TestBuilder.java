@@ -6,7 +6,7 @@ import creational.builder.PizzaBuilder;
 import creational.builder.SpicyPizzaBuilder;
 import creational.builder.Waiter;
 
-public class TestPizzaBuilder {
+public class TestBuilder {
 	public static void main(String[] args) {
 		Waiter waiter = new Waiter();
 		Pizza pizza;

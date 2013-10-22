@@ -1,0 +1,2465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2013-10-22T14:35:41" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
+   <XMI.exporterVersion>1.6.1</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML 模型">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="constructor" name="constructor"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="friend" name="friend"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="virtual" name="virtual"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="interface" name="interface"/>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="IR4qeJiSLNmX" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="zVzEjQ0ybocA" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEpiQtjiJoYv" name="bool"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="7GOSb8zabxpK" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="LpHwbr4V5sEV" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="jxE2lkyq1KJc" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="SGB3DyLYncTM" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="SVpXL315zD7i" name="unsigned int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="x3ZwNqXp6iqK" name="unsigned short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="gCqRmJlEnak8" name="unsigned long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="clDbyJHtMqqk" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Interface stereotype="interface" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="true" isLeaf="false" isRoot="false" xmi.id="b1FTpA9SoUPz" name="Creator">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="205S7bj649UK" name="factoryMethod">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="m2tg0fqZoxIv" type="cQWn5bsrw9Rp"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="HQRlkP4DrbvE" name="anOperation"/>
+       </UML:Classifier.feature>
+      </UML:Interface>
+      <UML:Interface stereotype="interface" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="true" isLeaf="false" isRoot="false" xmi.id="cQWn5bsrw9Rp" name="Product"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="PSwjQ2N11aSq" name="ConcreteCreator">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="04VCSnRsDDaa" name="factoryMethod">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="SohgARh16fhw" type="icHW4gTf4xQ9"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="icHW4gTf4xQ9" name="ConcreteProduct"/>
+      <UML:Abstraction visibility="public" isSpecification="false" namespace="Logical View" supplier="b1FTpA9SoUPz" xmi.id="ETrXNrZs11dT" client="PSwjQ2N11aSq" name=""/>
+      <UML:Abstraction visibility="public" isSpecification="false" namespace="Logical View" supplier="cQWn5bsrw9Rp" xmi.id="WLOrWCFLeaPZ" client="icHW4gTf4xQ9" name=""/>
+      <UML:Dependency visibility="public" isSpecification="false" namespace="Logical View" supplier="icHW4gTf4xQ9" xmi.id="VsI9SggCeXyl" client="PSwjQ2N11aSq" name=""/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="10" showattribassocs="1" snapy="10" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="factory_method" font="Inconsolata,10,-1,5,50,0,0,0,0,0" canvasheight="535" canvaswidth="1091" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#808080" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="GQnHDoeY8dfo" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <interfacewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="0" x="461" showstereotype="1" y="123" font="Inconsolata,10,-1,5,75,1,0,0,0,0" drawascircle="0" width="199" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="b1FTpA9SoUPz" showscope="1" height="67" showopsigs="601"/>
+         <interfacewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="1" showpubliconly="0" showpackage="0" x="170" showstereotype="1" y="135" font="Inconsolata,10,-1,5,75,1,0,0,0,0" drawascircle="0" width="98" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="cQWn5bsrw9Rp" showscope="1" height="44" showopsigs="601"/>
+         <classwidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="1" showpubliconly="1" showpackage="1" x="438" showattsigs="601" showstereotype="1" y="267" showattributes="1" font="Inconsolata,10,-1,5,75,0,0,0,0,0" width="255" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="PSwjQ2N11aSq" showscope="1" height="70" showopsigs="601"/>
+         <classwidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="1" showpubliconly="1" showpackage="1" x="153" showattsigs="601" showstereotype="1" y="287" showattributes="1" font="Inconsolata,10,-1,5,75,0,0,0,0,0" width="130" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="icHW4gTf4xQ9" showscope="1" height="32" showopsigs="601"/>
+         <notewidget width="269" showstereotype="1" x="781" noteType="0" usesdiagramusefillcolor="1" y="133" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffffff" height="61" linecolor="none" xmi.id="G4vm2hEmhTnw" textcolor="#000000" usefillcolor="1" linewidth="none" font="Inconsolata,10,-1,5,50,0,0,0,0,0" text="...&#xa;product = factoryMethod();&#xa;..."/>
+         <notewidget width="275" showstereotype="1" x="759" noteType="0" usesdiagramusefillcolor="1" y="276" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffffff" height="34" linecolor="none" xmi.id="zCrox4kb28Ye" textcolor="#000000" usefillcolor="1" linewidth="none" font="Inconsolata,10,-1,5,50,0,0,0,0,0" text="return new ConcreteProduct"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="248" widgetaid="PSwjQ2N11aSq" usesdiagramfillcolor="0" fillcolor="#000000" linecolor="none" totalcounta="2" xmi.id="ETrXNrZs11dT" widgetbid="b1FTpA9SoUPz" totalcountb="2" type="511" textcolor="none" usefillcolor="0" linewidth="none">
+          <linepath>
+           <startpoint startx="558" starty="267"/>
+           <endpoint endx="558" endy="190"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="96" widgetaid="icHW4gTf4xQ9" usesdiagramfillcolor="0" fillcolor="#000000" linecolor="none" totalcounta="2" xmi.id="WLOrWCFLeaPZ" widgetbid="cQWn5bsrw9Rp" totalcountb="2" type="511" textcolor="none" usefillcolor="0" linewidth="none">
+          <linepath>
+           <startpoint startx="195" starty="287"/>
+           <endpoint endx="195" endy="179"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="176" widgetaid="PSwjQ2N11aSq" usesdiagramfillcolor="0" fillcolor="#000000" linecolor="none" totalcounta="2" xmi.id="VsI9SggCeXyl" widgetbid="icHW4gTf4xQ9" totalcountb="2" type="502" textcolor="none" usefillcolor="0" linewidth="none">
+          <linepath>
+           <startpoint startx="438" starty="309"/>
+           <endpoint endx="283" endy="309"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="zCrox4kb28Ye" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="PSwjQ2N11aSq" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="513">
+          <linepath>
+           <startpoint startx="693" starty="296"/>
+           <endpoint endx="759" endy="296"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="G4vm2hEmhTnw" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="248" totalcounta="2" totalcountb="2" widgetaid="b1FTpA9SoUPz" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="513">
+          <linepath>
+           <startpoint startx="660" starty="183"/>
+           <endpoint endx="781" endy="183"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="GQnHDoeY8dfo" uniqueid="zCrox4kb28Ye" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="1" type="813" id="PSwjQ2N11aSq">
+      <listitem open="0" type="815" id="04VCSnRsDDaa"/>
+     </listitem>
+     <listitem open="1" type="813" id="icHW4gTf4xQ9"/>
+     <listitem open="1" type="817" id="b1FTpA9SoUPz">
+      <listitem open="0" type="815" id="HQRlkP4DrbvE"/>
+      <listitem open="0" type="815" id="205S7bj649UK"/>
+     </listitem>
+     <listitem open="0" type="807" id="GQnHDoeY8dfo" label="factory_method"/>
+     <listitem open="1" type="817" id="cQWn5bsrw9Rp"/>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uEpiQtjiJoYv"/>
+      <listitem open="1" type="829" id="zVzEjQ0ybocA"/>
+      <listitem open="1" type="829" id="LpHwbr4V5sEV"/>
+      <listitem open="1" type="829" id="7GOSb8zabxpK"/>
+      <listitem open="1" type="829" id="IR4qeJiSLNmX"/>
+      <listitem open="1" type="829" id="SGB3DyLYncTM"/>
+      <listitem open="1" type="829" id="jxE2lkyq1KJc"/>
+      <listitem open="1" type="829" id="clDbyJHtMqqk"/>
+      <listitem open="1" type="829" id="SVpXL315zD7i"/>
+      <listitem open="1" type="829" id="gCqRmJlEnak8"/>
+      <listitem open="1" type="829" id="x3ZwNqXp6iqK"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="802" id="Use Case View"/>
+    <listitem open="1" type="821" id="Component View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++">
+    <classifiercodedocument package="Datatypes" fileExt=".cpp" parent_class="SVpXL315zD7i" id="SVpXL315zD7i" fileName="unsigned_int" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;unsigned_int.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".cpp" parent_class="x3ZwNqXp6iqK" id="x3ZwNqXp6iqK" fileName="unsigned_short" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;unsigned_short.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".cpp" parent_class="gCqRmJlEnak8" id="gCqRmJlEnak8" fileName="unsigned_long" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;unsigned_long.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".cpp" parent_class="clDbyJHtMqqk" id="clDbyJHtMqqk" fileName="string" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;string.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".cpp" parent_class="b1FTpA9SoUPz" id="b1FTpA9SoUPz" fileName="Creator" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;creator.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks>
+        <codeoperation tag="operation_205S7bj649UK" parent_id="205S7bj649UK" writeOutText="false" canDelete="false">
+         <header>
+          <cppcodedocumentation tag=""/>
+         </header>
+        </codeoperation>
+        <codeoperation tag="operation_HQRlkP4DrbvE" parent_id="HQRlkP4DrbvE" writeOutText="false" canDelete="false">
+         <header>
+          <cppcodedocumentation tag=""/>
+         </header>
+        </codeoperation>
+       </textblocks>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="0" listClassName="" field_type="7536755" parent_id="ETrXNrZs11dT" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="1" tag="" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" text="public ConcreteCreator ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="1" tag="" accessType="0" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="1" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="2" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="3" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteCreator item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteCreator>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="4" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".cpp" parent_class="cQWn5bsrw9Rp" id="cQWn5bsrw9Rp" fileName="Product" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;product.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="0" listClassName="" field_type="7536755" parent_id="WLOrWCFLeaPZ" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="1" tag="" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" text="public ConcreteProduct ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="1" tag="" accessType="0" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="1" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="2" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="3" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteProduct item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteProduct>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="4" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".cpp" parent_class="PSwjQ2N11aSq" id="PSwjQ2N11aSq" fileName="ConcreteCreator" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;concretecreator.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks>
+        <codeoperation tag="operation_04VCSnRsDDaa" parent_id="04VCSnRsDDaa" writeOutText="false" canDelete="false">
+         <header>
+          <cppcodedocumentation tag=""/>
+         </header>
+        </codeoperation>
+       </textblocks>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="1" listClassName="" field_type="7536755" parent_id="ETrXNrZs11dT" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="0" tag="" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" text="public Creator ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="0" tag="" accessType="0" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="1" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="2" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="3" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;Creator item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;Creator>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="4" parent_id="ETrXNrZs11dT" writeOutText="false" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+      <codeclassfield role_id="1" listClassName="" field_type="33" parent_id="VsI9SggCeXyl" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="0" tag="" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" text="public ConcreteProduct ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="0" tag="" accessType="0" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="1" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="2" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="3" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteProduct item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteProduct>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="4" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".cpp" parent_class="icHW4gTf4xQ9" id="icHW4gTf4xQ9" fileName="ConcreteProduct" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="includes" text="#include &quot;concreteproduct.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="constructionMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Constructors/Destructors"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+      <hierarchicalcodeblock tag="otherMethodsBlock" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Methods"/>
+       </header>
+       <textblocks/>
+      </hierarchicalcodeblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="1" listClassName="" field_type="7536755" parent_id="WLOrWCFLeaPZ" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="0" tag="" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" text="public Product ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="0" tag="" accessType="0" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="1" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="2" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="3" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;Product item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;Product>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="4" parent_id="WLOrWCFLeaPZ" writeOutText="false" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+      <codeclassfield role_id="0" listClassName="" field_type="6357090" parent_id="VsI9SggCeXyl" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="1" tag="" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" text="public ConcreteCreator ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="1" tag="" accessType="0" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="1" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="2" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="3" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteCreator item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteCreator>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="4" parent_id="VsI9SggCeXyl" writeOutText="false" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag=""/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".h" parent_class="SVpXL315zD7i" id="cppheaderSVpXL315zD7i" fileName="unsigned_int" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef UNSIGNED_INT_H&amp;#010;#define UNSIGNED_INT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <codeblockwithcomments tag="enums" writeOutText="false">
+         <header>
+          <cppcodedocumentation tag="" writeOutText="false"/>
+         </header>
+        </codeblockwithcomments>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="SVpXL315zD7i" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Class unsigned_int&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="unsigned_int ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //UNSIGNED_INT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".h" parent_class="x3ZwNqXp6iqK" id="cppheaderx3ZwNqXp6iqK" fileName="unsigned_short" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef UNSIGNED_SHORT_H&amp;#010;#define UNSIGNED_SHORT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <codeblockwithcomments tag="enums" writeOutText="false">
+         <header>
+          <cppcodedocumentation tag="" writeOutText="false"/>
+         </header>
+        </codeblockwithcomments>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="x3ZwNqXp6iqK" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Class unsigned_short&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="unsigned_short ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //UNSIGNED_SHORT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".h" parent_class="gCqRmJlEnak8" id="cppheadergCqRmJlEnak8" fileName="unsigned_long" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef UNSIGNED_LONG_H&amp;#010;#define UNSIGNED_LONG_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <codeblockwithcomments tag="enums" writeOutText="false">
+         <header>
+          <cppcodedocumentation tag="" writeOutText="false"/>
+         </header>
+        </codeblockwithcomments>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="gCqRmJlEnak8" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Class unsigned_long&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="unsigned_long ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //UNSIGNED_LONG_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".h" parent_class="clDbyJHtMqqk" id="cppheaderclDbyJHtMqqk" fileName="string" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef STRING_H&amp;#010;#define STRING_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <codeblockwithcomments tag="enums" writeOutText="false">
+         <header>
+          <cppcodedocumentation tag="" writeOutText="false"/>
+         </header>
+        </codeblockwithcomments>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="clDbyJHtMqqk" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Class string&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="string ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //STRING_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".h" parent_class="b1FTpA9SoUPz" id="cppheaderb1FTpA9SoUPz" fileName="Creator" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef CREATOR_H&amp;#010;#define CREATOR_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;#include &quot;product.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="b1FTpA9SoUPz" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Interface Creator&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="Creator ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks>
+                <codeoperation tag="operation_205S7bj649UK" parent_id="205S7bj649UK" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1"/>
+                 </header>
+                </codeoperation>
+                <codeoperation tag="operation_HQRlkP4DrbvE" parent_id="HQRlkP4DrbvE" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1"/>
+                 </header>
+                </codeoperation>
+               </textblocks>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //CREATOR_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="0" listClassName="" field_type="6357090" parent_id="ETrXNrZs11dT" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="1" tag="" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" text=" ConcreteCreator ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="1" tag="" accessType="0" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="1" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="2" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="3" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteCreator item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteCreator>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="4" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".h" parent_class="cQWn5bsrw9Rp" id="cppheadercQWn5bsrw9Rp" fileName="Product" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef PRODUCT_H&amp;#010;#define PRODUCT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="cQWn5bsrw9Rp" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Interface Product&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="Product ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //PRODUCT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="0" listClassName="" field_type="6357090" parent_id="WLOrWCFLeaPZ" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="1" tag="" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" text=" ConcreteProduct ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="1" tag="" accessType="0" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="1" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="2" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="3" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteProduct item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteProduct>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="4" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".h" parent_class="PSwjQ2N11aSq" id="cppheaderPSwjQ2N11aSq" fileName="ConcreteCreator" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef CONCRETECREATOR_H&amp;#010;#define CONCRETECREATOR_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;#include &quot;creator.h&quot;&amp;#010;#include &quot;concreteproduct.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <codeblockwithcomments tag="enums" writeOutText="false">
+         <header>
+          <cppcodedocumentation tag="" writeOutText="false"/>
+         </header>
+        </codeblockwithcomments>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="PSwjQ2N11aSq" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Class ConcreteCreator&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="ConcreteCreator ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks>
+                <codeoperation tag="operation_04VCSnRsDDaa" parent_id="04VCSnRsDDaa" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1"/>
+                 </header>
+                </codeoperation>
+               </textblocks>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //CONCRETECREATOR_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="1" listClassName="" field_type="49" parent_id="ETrXNrZs11dT" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="0" tag="" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" text=" Creator ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="0" tag="" accessType="0" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="1" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="2" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="3" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;Creator item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;Creator>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="4" parent_id="ETrXNrZs11dT" writeOutText="false" indentLevel="1" classfield_id="ETrXNrZs11dT" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+      <codeclassfield role_id="1" listClassName="" field_type="6357090" parent_id="VsI9SggCeXyl" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="0" tag="" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" text=" ConcreteProduct ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="0" tag="" accessType="0" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="1" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="2" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="3" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteProduct item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteProduct>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="4" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+    <classifiercodedocument package="Logical View" fileExt=".h" parent_class="icHW4gTf4xQ9" id="cppheadericHW4gTf4xQ9" fileName="ConcreteProduct" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="hashDefBlock" text="#ifndef CONCRETEPRODUCT_H&amp;#010;#define CONCRETEPRODUCT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="includes" text="#include &lt;string>&amp;#010;#include &quot;product.h&quot;&amp;#010;">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="using" writeOutText="false">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <hierarchicalcodeblock tag="namespace" canDelete="false">
+       <header>
+        <cppcodedocumentation tag="" text="Namespace"/>
+       </header>
+       <textblocks>
+        <codeblockwithcomments tag="enums" writeOutText="false">
+         <header>
+          <cppcodedocumentation tag="" writeOutText="false"/>
+         </header>
+        </codeblockwithcomments>
+        <cppheaderclassdeclarationblock tag="classDeclarationBlock" parent_id="icHW4gTf4xQ9" canDelete="false">
+         <header>
+          <cppcodedocumentation tag="" text="Class ConcreteProduct&amp;#010;"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="publicBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Public stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="publicFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="pubMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks>
+                <codeblockwithcomments tag="emptyconstructor" indentLevel="1" text="ConcreteProduct ( ) { }">
+                 <header>
+                  <cppcodedocumentation tag="" indentLevel="1" text="Empty Constructor"/>
+                 </header>
+                </codeblockwithcomments>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="pubStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="pubRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="protectedBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Protected stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="protectedFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="protMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="protStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="protRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="privateBlock" canDelete="false">
+           <header>
+            <cppcodedocumentation tag="" text="Private stuff"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="privateFieldsDecl" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1" text="Fields"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="privMethodsBlock" indentLevel="1" canDelete="false">
+             <header>
+              <cppcodedocumentation tag="" indentLevel="1"/>
+             </header>
+             <textblocks>
+              <hierarchicalcodeblock tag="constructionMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Constructors"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Accessor Methods"/>
+               </header>
+               <textblocks>
+                <hierarchicalcodeblock tag="privStaticAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+                <hierarchicalcodeblock tag="privRegularAccessorMethods" indentLevel="1" canDelete="false">
+                 <header>
+                  <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+                 </header>
+                 <textblocks/>
+                </hierarchicalcodeblock>
+               </textblocks>
+              </hierarchicalcodeblock>
+              <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+               <header>
+                <cppcodedocumentation tag="" indentLevel="1" text="Operations"/>
+               </header>
+               <textblocks/>
+              </hierarchicalcodeblock>
+             </textblocks>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </cppheaderclassdeclarationblock>
+       </textblocks>
+      </hierarchicalcodeblock>
+      <codeblockwithcomments tag="hashDefBlockEnd" text="#endif //CONCRETEPRODUCT_H">
+       <header>
+        <cppcodedocumentation tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields>
+      <codeclassfield role_id="1" listClassName="" field_type="6357090" parent_id="WLOrWCFLeaPZ" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="0" tag="" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" text=" Product ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="0" tag="" accessType="0" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="1" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="2" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="3" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;Product item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;Product>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="0" tag="" accessType="4" parent_id="WLOrWCFLeaPZ" writeOutText="false" indentLevel="1" classfield_id="WLOrWCFLeaPZ" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+      <codeclassfield role_id="0" listClassName="" field_type="6357090" parent_id="VsI9SggCeXyl" writeOutMethods="true" initialValue="">
+       <header>
+        <cppcodedocumentation tag=""/>
+       </header>
+       <ccfdeclarationcodeblock role_id="1" tag="" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" text=" ConcreteCreator ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" writeOutText="false" indentLevel="1"/>
+        </header>
+       </ccfdeclarationcodeblock>
+       <codeaccessormethod role_id="1" tag="" accessType="0" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="1" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text=" = value;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="2" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="%VARNAME%.push_back(value);" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="3" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="int size = %VARNAME%.size();&amp;#010;for ( int i = 0; i &lt; size; ++i) {&amp;#010;&#x9;ConcreteCreator item = %VARNAME%.at(i);&amp;#010;&#x9;if(item == value) {&amp;#010;&#x9;&#x9;vector&lt;ConcreteCreator>::iterator it = %VARNAME%.begin() + i;&amp;#010;&#x9;&#x9;%VARNAME%.erase(it);&amp;#010;&#x9;&#x9;return;&amp;#010;&#x9;}&amp;#010; }" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+       <codeaccessormethod role_id="1" tag="" accessType="4" parent_id="VsI9SggCeXyl" writeOutText="false" indentLevel="1" classfield_id="VsI9SggCeXyl" text="return ;" canDelete="false">
+        <header>
+         <cppcodedocumentation tag="" indentLevel="1"/>
+        </header>
+       </codeaccessormethod>
+      </codeclassfield>
+     </classfields>
+    </classifiercodedocument>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>

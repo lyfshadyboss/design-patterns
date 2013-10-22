@@ -7,7 +7,7 @@ import creational.abstractfactory.BostonConcreteSoupFactory;
 import creational.abstractfactory.HonoluluConcreteSoupFactory;
 import creational.abstractfactory.Soup;
 
-class TestAbstractSoupFactory {
+class TestAbstractFactory {
 	public static Soup MakeSoupOfTheDay(AbstractSoupFactory concreteSoupFactory) {
 		int dayOfWeek = Calendar.TUESDAY;
 
